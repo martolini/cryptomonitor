@@ -1,7 +1,7 @@
 const socket = require('socket.io-client')('wss://streamer.cryptocompare.com')
 const chalk = require('chalk')
 
-const markets = ['Coinone']
+const markets = ['Poloniex']
 const rates = [
 ['ETH', 'USD']
 ]
